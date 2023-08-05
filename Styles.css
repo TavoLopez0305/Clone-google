@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+    
+}
+.list-one{
+    display: inline;
+    padding: 7px;
+}
+.list-one a{
+    text-decoration: none;
+    color: black;
+}
+.list-one a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.menu{
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px
+}
+.foto{ 
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+.firts-block-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.Google{
+    height: auto;
+    width: 400px; 
+}
+.Second-block-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.Sub-block-second{
+    width: 40%;
+    border-radius: 100px;
+    border: solid 1px #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sub-block-second input{
+    width: 530px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+.Sub-block-second input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.search-icon{ 
+    background-image: url('https://cdn-icons-png.flaticon.com/128/2319/2319177.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+.search-icon-two{ 
+    background-image: url('https://freepngimg.com/download/google/67091-engine-web-search-google-now-voice.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.Third-block-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+.blocks{
+    margin: 4px 11px 4px 11px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding-inline: 16px;
+
+    
+}
+.blocks a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-block-one{
+    width: 97%;
+    height: 20px;
+    background-color:#F2F2F2 ;
+    border: 1px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dadce0;
+    align-content: flex-start;
+}
+.Mexico{
+    color: #70757a;
+    text-decoration: none;
+    margin-left: 27px;
+}
+
+.footer-block-two{
+    width: 97%;
+    height: 20px;
+    background-color:#F2F2F2;
+    border: 1px;
+    padding: 15px;
+
+}
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin: 0;
+    width: 40%;
+}
+.list-footer{
+    display: inline; 
+
+}
+.footer-styles{
+    text-decoration: none;
+    color: #70757a;
+}
